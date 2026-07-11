@@ -102,16 +102,7 @@ Go • Docker • REST APIs
 - AI Agents
 - Distributed Systems
 - Cloud-Native Architecture
-- High Performance Go
 - System Design
-
----
-
-## 📈 GitHub
-
-- Public projects focused on backend engineering
-- Building open-source AI tooling
-- Continuously improving architecture and developer experience
 
 ---
 
