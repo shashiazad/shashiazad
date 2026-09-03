@@ -79,7 +79,26 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 <sub>Auto-picked from my top-starred repos, refreshed daily.</sub>
 
 <!-- FEATURED-PROJECTS:START -->
-<em>Populated automatically the first time the "Update Featured Projects" Action runs — trigger it from the Actions tab after pushing this file.</em>
+
+**[DSA-Submission](https://github.com/shashiazad/DSA-Submission)**
+My NeetCode.io problem submissions
+
+![Stars](https://img.shields.io/github/stars/shashiazad/DSA-Submission?style=flat-square&label=%E2%AD%90) ![Language](https://img.shields.io/badge/-Java-4c9be8?style=flat-square)
+
+---
+
+**[deploy-guard](https://github.com/shashiazad/deploy-guard)**
+No description provided.
+
+![Stars](https://img.shields.io/github/stars/shashiazad/deploy-guard?style=flat-square&label=%E2%AD%90) ![Language](https://img.shields.io/badge/-Python-4c9be8?style=flat-square)
+
+---
+
+**[infra-pilot](https://github.com/shashiazad/infra-pilot)**
+An Agentic AI Based Infrastructure Investigator
+
+![Stars](https://img.shields.io/github/stars/shashiazad/infra-pilot?style=flat-square&label=%E2%AD%90) ![Language](https://img.shields.io/badge/-Python-4c9be8?style=flat-square)
+
 <!-- FEATURED-PROJECTS:END -->
 
 ---
