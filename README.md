@@ -4,7 +4,7 @@
 
 ### Backend Software Engineer | Distributed Systems | AI Agents
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Backend+Engineer;Distributed+Systems+Enthusiast;Cloud-Native+Developer;Building+AI-Powered+Applications;Always+Learning+%26+Building" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Backend+Engineer;Distributed+Systems+Enthusiast;Cloud-Native+Developer;Building+AI-Powered+Applications;Always+Learning+%26+Building" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -40,7 +40,7 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&pause=1200&color=8B949E&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+production-grade+backend+services;%F0%9F%A7%A0+Learning+system+design+%26+scalable+architecture;%F0%9F%9B%A0%EF%B8%8F+Solving+real-world+problems%2C+one+repo+at+a+time" alt="About Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=8B949E&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+production-grade+backend+services;%F0%9F%A7%A0+Learning+system+design+%26+scalable+architecture;%F0%9F%9B%A0%EF%B8%8F+Solving+real-world+problems%2C+one+repo+at+a+time" alt="About Typing SVG" />
 
 </div>
 
@@ -81,9 +81,7 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 <div align="center">
 
 <!-- FEATURED-PROJECTS:START -->
-<a href="https://github.com/shashiazad">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shashiazad&repo=REPLACE_ME&theme=transparent&hide_border=true" alt="Loading..." />
-</a>
+<em>Populated automatically the first time the "Update Featured Projects" Action runs — trigger it from the Actions tab after pushing this file.</em>
 <!-- FEATURED-PROJECTS:END -->
 
 </div>
@@ -102,26 +100,14 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shashiazad&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution Graph" />
-
-</div>
-
----
-
 ## 🎯 Currently Exploring
 
-```text
-🤖 AI Agents & Agentic Workflows
-🧠 Large Language Models
-🏗️ Distributed Systems
-☁️ Cloud-Native Architecture
-⚙️ System Design
-🛠️ Developer Platforms & Tooling
-```
+🤖&nbsp; AI Agents & Agentic Workflows &nbsp;·&nbsp;
+🧠&nbsp; Large Language Models &nbsp;·&nbsp;
+🏗️&nbsp; Distributed Systems &nbsp;·&nbsp;
+☁️&nbsp; Cloud-Native Architecture &nbsp;·&nbsp;
+⚙️&nbsp; System Design &nbsp;·&nbsp;
+🛠️&nbsp; Developer Platforms & Tooling
 
 ---
 
@@ -168,13 +154,3 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 ⭐ **Always learning. Always building.**
 
 </div>
-
----
-
-<details>
-<summary>🔧 How the auto-update works</summary>
-<br/>
-
-The Featured Projects section above is regenerated automatically by a GitHub Action (`.github/workflows/update-readme.yml`) on a daily schedule and on every push. It calls the GitHub API for this account's repos, filters out forks, sorts by star count, and rewrites the block between the `FEATURED-PROJECTS` markers in this file — no manual editing needed. See `.github/scripts/update-readme.js` for the logic.
-
-</details>
