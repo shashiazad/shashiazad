@@ -1,7 +1,10 @@
 # .github/workflows/update-readme.yml
 #
 # Regenerates the Featured Projects section of README.md from this
-# account's top-starred repos, once a day and on every push to main.
+# account's top-starred repos, using plain markdown + shields.io badges
+# (no third-party image-generation service, so it can't go down the way
+# pin-card services have). Runs daily, on every push to main, and on
+# demand from the Actions tab.
 
 name: Update Featured Projects
 

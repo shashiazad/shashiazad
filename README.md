@@ -76,15 +76,11 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 
 ## 🚀 Featured Projects
 
-<sub>Auto-picked from my top-starred repos and refreshed daily — see <a href="#-how-the-auto-update-works">how it works</a>.</sub>
-
-<div align="center">
+<sub>Auto-picked from my top-starred repos, refreshed daily.</sub>
 
 <!-- FEATURED-PROJECTS:START -->
 <em>Populated automatically the first time the "Update Featured Projects" Action runs — trigger it from the Actions tab after pushing this file.</em>
 <!-- FEATURED-PROJECTS:END -->
-
-</div>
 
 ---
 
@@ -92,9 +88,9 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=shashiazad&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&rank_icon=github" alt="Shashi's GitHub Stats" />
+<img height="180" src="https://github.com/shashiazad/github-stats/blob/generated/overview.svg" alt="Shashi's GitHub Stats" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shashiazad&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top Languages" />
+<img height="180" src="https://github.com/shashiazad/github-stats/blob/generated/languages.svg" alt="Top Languages" />
 
 </div>
 

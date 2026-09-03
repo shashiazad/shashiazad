@@ -1,8 +1,12 @@
 // .github/scripts/update-readme.js
 //
-// Fetches this GitHub account's repos, picks the top N by star count
-// (falling back to most-recently-pushed for ties/no stars), and rewrites
-// the block between the FEATURED-PROJECTS markers in README.md.
+// Fetches this GitHub account's repos, excludes the profile README repo
+// itself plus forks/archived/disabled repos, picks the top N by star count
+// (falling back to most-recently-pushed), and rewrites the FEATURED-PROJECTS
+// block in README.md with plain markdown + shields.io badges.
+//
+// No third-party image-generation service is used, so this can't break the
+// way pin-card / stats-card services have.
 //
 // Requires Node 18+ (for global fetch) — GitHub's ubuntu-latest runner has this.
 
@@ -34,7 +38,13 @@ async function fetchRepos() {
 
 function pickFeatured(repos) {
   return repos
-    .filter((r) => !r.fork && !r.archived && !r.disabled)
+    .filter(
+      (r) =>
+        !r.fork &&
+        !r.archived &&
+        !r.disabled &&
+        r.name.toLowerCase() !== USERNAME.toLowerCase() // exclude the profile repo itself
+    )
     .sort((a, b) => {
       if (b.stargazers_count !== a.stargazers_count) {
         return b.stargazers_count - a.stargazers_count;
@@ -47,12 +57,22 @@ function pickFeatured(repos) {
 function buildBlock(repos) {
   const cards = repos
     .map((r) => {
-      const alt = r.name.replace(/"/g, "'");
-      return `<a href="${r.html_url}">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=${USERNAME}&repo=${r.name}&theme=transparent&hide_border=true" alt="${alt}" />
-</a>`;
+      const desc = r.description ? r.description.trim() : 'No description provided.';
+      const lang = r.language || null;
+      const badges = [
+        `![Stars](https://img.shields.io/github/stars/${USERNAME}/${r.name}?style=flat-square&label=%E2%AD%90)`,
+        lang
+          ? `![Language](https://img.shields.io/badge/-${encodeURIComponent(
+              lang
+            )}-4c9be8?style=flat-square)`
+          : null,
+      ]
+        .filter(Boolean)
+        .join(' ');
+
+      return `**[${r.name}](${r.html_url})**\n${desc}\n\n${badges}`;
     })
-    .join('\n\n');
+    .join('\n\n---\n\n');
 
   return cards;
 }
@@ -70,7 +90,7 @@ function updateReadme(block) {
 
   const before = readme.slice(0, startIdx + START_MARKER.length);
   const after = readme.slice(endIdx);
-  const updated = `${before}\n${block}\n${after}`;
+  const updated = `${before}\n\n${block}\n\n${after}`;
 
   fs.writeFileSync(README_PATH, updated);
 }
@@ -80,7 +100,7 @@ async function main() {
   const featured = pickFeatured(repos);
 
   if (featured.length === 0) {
-    console.log('No eligible repos found (all forks/archived/empty) — leaving README unchanged.');
+    console.log('No eligible repos found — leaving README unchanged.');
     return;
   }
 
