@@ -14,7 +14,7 @@
 <a href="https://github.com/shashiazad?tab=followers">
   <img src="https://img.shields.io/github/followers/shashiazad?label=Followers&style=for-the-badge&logo=github" alt="GitHub Followers" />
 </a>
-<a href="https://linkedin.com/in/shashishekharazad">
+<a href="https://linkedin.com/in/shashisa">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
@@ -29,7 +29,7 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 - 🎓 M.Tech in Computer Science, NIT Jalandhar
 - ⚙️ Core stack: **Go · Java · Python**, distributed systems, cloud-native infra
 - 🤖 Currently deepening skills in **AI Agents, LLMs, and RAG**
-- 📬 **Open to backend / GenAI engineering roles** — [let's connect](https://linkedin.com/in/shashishekharazad)
+- 📬 **Open to backend / GenAI engineering roles** — [let's connect](https://linkedin.com/in/shashisa)
 
 <div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1200&color=8B949E&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+production-grade+backend+services;%F0%9F%A7%A0+Learning+system+design+%26+scalable+architecture;%F0%9F%9B%A0%EF%B8%8F+Solving+real-world+problems%2C+one+repo+at+a+time" alt="About Typing SVG" />
@@ -111,7 +111,7 @@ No description provided.
 <a href="https://github.com/shashiazad">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-<a href="https://linkedin.com/in/shashishekharazad">
+<a href="https://linkedin.com/in/shashisa">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
