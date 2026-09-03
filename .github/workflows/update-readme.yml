@@ -1,0 +1,40 @@
+# .github/workflows/update-readme.yml
+#
+# Regenerates the Featured Projects section of README.md from this
+# account's top-starred repos, once a day and on every push to main.
+
+name: Update Featured Projects
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # daily at 03:00 UTC
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update featured projects
+        env:
+          GH_USERNAME: shashiazad
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update-readme.js
+
+      - name: Commit changes if any
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: auto-update featured projects'
+          file_pattern: README.md
