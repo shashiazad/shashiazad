@@ -4,168 +4,93 @@
 
 ### Backend Software Engineer | Distributed Systems | AI Agents
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Backend+Engineer;Distributed+Systems+Enthusiast;Cloud-Native+Developer;Building+AI-Powered+Applications;Always+Learning+%26+Building" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Backend+Engineer;Distributed+Systems+Enthusiast;Cloud-Native+Developer;Building+AI-Powered+Applications;Open+to+new+opportunities" alt="Typing SVG" />
 
-<br/><br/>
+<br/>
 
 <a href="https://github.com/shashiazad">
   <img src="https://komarev.com/ghpvc/?username=shashiazad&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" alt="Profile Views" />
 </a>
-
 <a href="https://github.com/shashiazad?tab=followers">
   <img src="https://img.shields.io/github/followers/shashiazad?label=Followers&style=for-the-badge&logo=github" alt="GitHub Followers" />
+</a>
+<a href="https://linkedin.com/in/shashishekharazad">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
 </div>
 
----
+<br/>
 
 ## 👨‍💻 About Me
 
-I build **scalable backend systems, developer platforms, and AI-powered applications** with a strong focus on **performance, reliability, maintainability, and clean architecture**.
+I build **scalable backend systems, developer platforms, and AI-powered applications**, with a strong focus on performance, reliability, and clean architecture.
+
+- 🎓 M.Tech in Computer Science, NIT Jalandhar
+- ⚙️ Core stack: **Go · Java · Python**, distributed systems, cloud-native infra
+- 🤖 Currently deepening skills in **AI Agents, LLMs, and RAG**
+- 📬 **Open to backend / GenAI engineering roles** — [let's connect](https://linkedin.com/in/shashishekharazad)
 
 <div align="center">
-
-<br/>
-
-🎓&nbsp; M.Tech in Computer Science, NIT Jalandhar
-&nbsp;&nbsp;|&nbsp;&nbsp;
-⚙️&nbsp; Go · Java · Python
-&nbsp;&nbsp;|&nbsp;&nbsp;
-☁️&nbsp; Distributed Systems & Cloud-Native Infra
-&nbsp;&nbsp;|&nbsp;&nbsp;
-🤖&nbsp; AI Agents · LLMs · RAG
-&nbsp;&nbsp;|&nbsp;&nbsp;
-📬&nbsp; Open to new opportunities — let's connect!
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=8B949E&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+production-grade+backend+services;%F0%9F%A7%A0+Learning+system+design+%26+scalable+architecture;%F0%9F%9B%A0%EF%B8%8F+Solving+real-world+problems%2C+one+repo+at+a+time" alt="About Typing SVG" />
-
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1200&color=8B949E&center=true&vCenter=true&width=650&lines=%F0%9F%9A%80+Building+production-grade+backend+services;%F0%9F%A7%A0+Learning+system+design+%26+scalable+architecture;%F0%9F%9B%A0%EF%B8%8F+Solving+real-world+problems%2C+one+repo+at+a+time" alt="About Typing SVG" />
 </div>
 
----
+<br/>
 
 ## 🛠️ Tech Stack
 
 <div align="center">
 
-### Languages
-
-<img src="https://skillicons.dev/icons?i=go,java,python,cpp,typescript,javascript&theme=dark" alt="Languages" />
-
-### Backend & Frontend
-
-<img src="https://skillicons.dev/icons?i=nodejs,nextjs,react&theme=dark" alt="Backend and Frontend" />
-
-### Cloud & Infrastructure
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux&theme=dark" alt="Cloud and Infrastructure" />
-
-### Databases & Caching
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases" />
-
-### Developer Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Developer Tools" />
+<img src="https://skillicons.dev/icons?i=go,java,python,cpp,typescript,javascript,nodejs,nextjs,react,docker,kubernetes,linux,postgres,mysql,mongodb,redis,git,github,vscode&theme=dark" alt="Tech Stack" />
 
 </div>
 
----
+<br/>
 
 ## 🚀 Featured Projects
 
-<sub>Auto-picked from my top-starred repos, refreshed daily.</sub>
+<sub>Auto-ranked by stars, refreshed daily via GitHub Action — see <code>.github/workflows/update-readme.yml</code>.</sub>
 
 <!-- FEATURED-PROJECTS:START -->
-
-**[DSA-Submission](https://github.com/shashiazad/DSA-Submission)**
-My NeetCode.io problem submissions
-
-![Stars](https://img.shields.io/github/stars/shashiazad/DSA-Submission?style=flat-square&label=%E2%AD%90) ![Language](https://img.shields.io/badge/-Java-4c9be8?style=flat-square)
-
----
-
-**[deploy-guard](https://github.com/shashiazad/deploy-guard)**
-No description provided.
-
-![Stars](https://img.shields.io/github/stars/shashiazad/deploy-guard?style=flat-square&label=%E2%AD%90) ![Language](https://img.shields.io/badge/-Python-4c9be8?style=flat-square)
-
----
-
-**[infra-pilot](https://github.com/shashiazad/infra-pilot)**
-An Agentic AI Based Infrastructure Investigator
-
-![Stars](https://img.shields.io/github/stars/shashiazad/infra-pilot?style=flat-square&label=%E2%AD%90) ![Language](https://img.shields.io/badge/-Python-4c9be8?style=flat-square)
-
+<em>Populated automatically the first time the "Update Featured Projects" Action runs — trigger it from the Actions tab after pushing this file.</em>
 <!-- FEATURED-PROJECTS:END -->
 
----
+<br/>
 
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-<img height="180" src="https://github.com/shashiazad/github-stats/blob/generated/overview.svg" alt="Shashi's GitHub Stats" />
-
-<img height="180" src="https://github.com/shashiazad/github-stats/blob/generated/languages.svg" alt="Top Languages" />
-
-</div>
-
----
-
-## 🎯 Currently Exploring
-
-🤖&nbsp; AI Agents & Agentic Workflows &nbsp;·&nbsp;
-🧠&nbsp; Large Language Models &nbsp;·&nbsp;
-🏗️&nbsp; Distributed Systems &nbsp;·&nbsp;
-☁️&nbsp; Cloud-Native Architecture &nbsp;·&nbsp;
-⚙️&nbsp; System Design &nbsp;·&nbsp;
-🛠️&nbsp; Developer Platforms & Tooling
-
----
-
-## 🧭 Engineering Interests
-
-<div align="center">
-
-| Backend | Infrastructure | AI |
-|:---:|:---:|:---:|
-| Distributed Systems | Kubernetes | AI Agents |
-| API Design | Docker | LLM Applications |
-| Microservices | Cloud Native | Developer AI |
-| Databases | Observability | RAG |
-| Performance | Reliability | Agentic Workflows |
+<img height="165" src="https://github.com/shashiazad/github-stats/blob/generated/overview.svg" alt="Shashi's GitHub Stats" />
+<img height="165" src="https://github.com/shashiazad/github-stats/blob/generated/languages.svg" alt="Top Languages" />
 
 </div>
 
----
+<br/>
 
-## 🤝 Let's Connect
+## 🐍 Contribution Activity
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/shashiazad/shashiazad/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" width="100%" />
+
+</div>
+
+<sub align="center">Animated by <a href="https://github.com/Platane/snk">Platane/snk</a> — regenerates weekly via its own Action, no third-party server involved.</sub>
+
+<br/><br/>
+
+<div align="center">
+
+### 💡 "Build software that's simple to maintain, reliable in production, and scalable by design."
+
+⭐ **Always learning. Always building.**
 
 <a href="https://github.com/shashiazad">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-
 <a href="https://linkedin.com/in/shashishekharazad">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### 💡 Engineering Philosophy
-
-> **"Build software that's simple to maintain, reliable in production, and scalable by design."**
-
-<br/>
-
-⭐ **Always learning. Always building.**
 
 </div>

@@ -1,15 +1,3 @@
-// .github/scripts/update-readme.js
-//
-// Fetches this GitHub account's repos, excludes the profile README repo
-// itself plus forks/archived/disabled repos, picks the top N by star count
-// (falling back to most-recently-pushed), and rewrites the FEATURED-PROJECTS
-// block in README.md with plain markdown + shields.io badges.
-//
-// No third-party image-generation service is used, so this can't break the
-// way pin-card / stats-card services have.
-//
-// Requires Node 18+ (for global fetch) — GitHub's ubuntu-latest runner has this.
-
 const fs = require('fs');
 
 const USERNAME = process.env.GH_USERNAME || 'shashiazad';
@@ -17,6 +5,7 @@ const README_PATH = 'README.md';
 const START_MARKER = '<!-- FEATURED-PROJECTS:START -->';
 const END_MARKER = '<!-- FEATURED-PROJECTS:END -->';
 const TOP_N = 3;
+const MEDALS = ['🥇', '🥈', '🥉'];
 
 async function fetchRepos() {
   const res = await fetch(
@@ -54,27 +43,45 @@ function pickFeatured(repos) {
     .slice(0, TOP_N);
 }
 
+function buildCard(repo, rank) {
+  const medal = MEDALS[rank] || '📦';
+  const desc = repo.description
+    ? repo.description.trim()
+    : 'No description provided.';
+  const tags = (repo.topics || [])
+    .slice(0, 6)
+    .map((t) => `\`${t}\``)
+    .join(' ');
+
+  const badges = [
+    `![Stars](https://img.shields.io/github/stars/${USERNAME}/${repo.name}?style=flat-square&label=%E2%AD%90&color=f0c674)`,
+    `![Last Commit](https://img.shields.io/github/last-commit/${USERNAME}/${repo.name}?style=flat-square&label=updated)`,
+    repo.language
+      ? `![Language](https://img.shields.io/badge/-${encodeURIComponent(
+          repo.language
+        )}-4c9be8?style=flat-square)`
+      : null,
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  const homepage =
+    repo.homepage && repo.homepage.trim()
+      ? ` · [🔗 Live Demo](${repo.homepage.trim()})`
+      : '';
+
+  return [
+    `### ${medal} [${repo.name}](${repo.html_url})${homepage}`,
+    desc,
+    tags ? tags : null,
+    badges,
+  ]
+    .filter(Boolean)
+    .join('\n\n');
+}
+
 function buildBlock(repos) {
-  const cards = repos
-    .map((r) => {
-      const desc = r.description ? r.description.trim() : 'No description provided.';
-      const lang = r.language || null;
-      const badges = [
-        `![Stars](https://img.shields.io/github/stars/${USERNAME}/${r.name}?style=flat-square&label=%E2%AD%90)`,
-        lang
-          ? `![Language](https://img.shields.io/badge/-${encodeURIComponent(
-              lang
-            )}-4c9be8?style=flat-square)`
-          : null,
-      ]
-        .filter(Boolean)
-        .join(' ');
-
-      return `**[${r.name}](${r.html_url})**\n${desc}\n\n${badges}`;
-    })
-    .join('\n\n---\n\n');
-
-  return cards;
+  return repos.map((r, i) => buildCard(r, i)).join('\n\n---\n\n');
 }
 
 function updateReadme(block) {
