@@ -53,19 +53,19 @@ I build **scalable backend systems, developer platforms, and AI-powered applicat
 
 <!-- FEATURED-PROJECTS:START -->
 
-### 🥇 [infra-pilot](https://github.com/shashiazad/infra-pilot)
-
-An Agentic AI Based Infrastructure Investigator
-
-![Stars](https://img.shields.io/github/stars/shashiazad/infra-pilot?style=flat-square&label=%E2%AD%90&color=f0c674) ![Last Commit](https://img.shields.io/github/last-commit/shashiazad/infra-pilot?style=flat-square&label=updated) ![Language](https://img.shields.io/badge/-Python-4c9be8?style=flat-square)
-
----
-
-### 🥈 [spendclan](https://github.com/shashiazad/spendclan) · [🔗 Live Demo](https://SpendClan.vercel.app)
+### 🥇 [spendclan](https://github.com/shashiazad/spendclan) · [🔗 Live Demo](https://SpendClan.vercel.app)
 
 No description provided.
 
 ![Stars](https://img.shields.io/github/stars/shashiazad/spendclan?style=flat-square&label=%E2%AD%90&color=f0c674) ![Last Commit](https://img.shields.io/github/last-commit/shashiazad/spendclan?style=flat-square&label=updated) ![Language](https://img.shields.io/badge/-TypeScript-4c9be8?style=flat-square)
+
+---
+
+### 🥈 [infra-pilot](https://github.com/shashiazad/infra-pilot)
+
+An Agentic AI Based Infrastructure Investigator
+
+![Stars](https://img.shields.io/github/stars/shashiazad/infra-pilot?style=flat-square&label=%E2%AD%90&color=f0c674) ![Last Commit](https://img.shields.io/github/last-commit/shashiazad/infra-pilot?style=flat-square&label=updated) ![Language](https://img.shields.io/badge/-Python-4c9be8?style=flat-square)
 
 ---
 
