@@ -61,19 +61,19 @@ No description provided.
 
 ---
 
-### 🥈 [infra-pilot](https://github.com/shashiazad/infra-pilot)
-
-An Agentic AI Based Infrastructure Investigator
-
-![Stars](https://img.shields.io/github/stars/shashiazad/infra-pilot?style=flat-square&label=%E2%AD%90&color=f0c674) ![Last Commit](https://img.shields.io/github/last-commit/shashiazad/infra-pilot?style=flat-square&label=updated) ![Language](https://img.shields.io/badge/-Python-4c9be8?style=flat-square)
-
----
-
-### 🥉 [link2pdf](https://github.com/shashiazad/link2pdf) · [🔗 Live Demo](https://link2pdf-weld.vercel.app)
+### 🥈 [MonitorMixer](https://github.com/shashiazad/MonitorMixer)
 
 No description provided.
 
-![Stars](https://img.shields.io/github/stars/shashiazad/link2pdf?style=flat-square&label=%E2%AD%90&color=f0c674) ![Last Commit](https://img.shields.io/github/last-commit/shashiazad/link2pdf?style=flat-square&label=updated) ![Language](https://img.shields.io/badge/-TypeScript-4c9be8?style=flat-square)
+![Stars](https://img.shields.io/github/stars/shashiazad/MonitorMixer?style=flat-square&label=%E2%AD%90&color=f0c674) ![Last Commit](https://img.shields.io/github/last-commit/shashiazad/MonitorMixer?style=flat-square&label=updated) ![Language](https://img.shields.io/badge/-Swift-4c9be8?style=flat-square)
+
+---
+
+### 🥉 [DSA-Submission](https://github.com/shashiazad/DSA-Submission)
+
+My NeetCode.io problem submissions
+
+![Stars](https://img.shields.io/github/stars/shashiazad/DSA-Submission?style=flat-square&label=%E2%AD%90&color=f0c674) ![Last Commit](https://img.shields.io/github/last-commit/shashiazad/DSA-Submission?style=flat-square&label=updated) ![Language](https://img.shields.io/badge/-Java-4c9be8?style=flat-square)
 
 <!-- FEATURED-PROJECTS:END -->
 
